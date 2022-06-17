@@ -3,7 +3,7 @@ Created an ATM in Java to illustrate ATM transactions. When the system starts th
 * To withdraw money, simply obtain the user’s withdrawal amount, deduct it from the total balance, and print the successful message.
 * To deposit money, simply ask the user for the deposit amount, add it to the total balance, and print the successful message.
 * To check the balance, simply publish the user’s total balance.
-* To exit the current Transaction mode and return the user to the initial screen, use the exit(0) method.
+* To exit the current Transaction mode and return the user to the initial screen, use the exit() option.
 
 # Language Used
 * JAVA
