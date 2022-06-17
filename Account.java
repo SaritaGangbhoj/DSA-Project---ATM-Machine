@@ -14,9 +14,8 @@ public class Account {
 
     /* Set the customer number */
 
-    public int setCustomerNumber(int customerNumber) {
+    public void setCustomerNumber(int customerNumber) {
         this.customerNumber = customerNumber;
-        return  customerNumber;
     }
 
     /* Get the customer number */
@@ -27,9 +26,8 @@ public class Account {
 
     /* Set the pin number */
 
-    public int setPinNumber(int pinNumber) {
+    public void setPinNumber(int pinNumber) {
         this.pinNumber = pinNumber;
-        return  pinNumber;
     }
 
     /* Get the pin number */
@@ -52,30 +50,26 @@ public class Account {
 
     /* Calculate Checking Account Withdrawal */
 
-    public double calcCheckingWithdraw(double amount) {
+    public void calcCheckingWithdraw(double amount) {
         checkingBalance = (checkingBalance - amount);
-        return checkingBalance;
     }
 
     /* Calculate Saving Account Withdrawal */
 
-    public double calcSavingWithdraw(double amount) {
+    public void calcSavingWithdraw(double amount) {
         savingBalance = (savingBalance - amount);
-        return savingBalance;
     }
 
     /* Calculate Checking Account Deposit */
 
-    public double calcCheckingDeposit(double amount) {
+    public void calcCheckingDeposit(double amount) {
         checkingBalance = (checkingBalance + amount);
-        return checkingBalance;
     }
 
     /* Calculate Saving Account Deposit */
 
-    public double calcSavingDeposit(double amount) {
+    public void calcSavingDeposit(double amount) {
         savingBalance = (savingBalance + amount);
-        return savingBalance;
     }
 
     /* Customer Checking Account Withdraw Input */
